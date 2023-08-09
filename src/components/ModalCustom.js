@@ -6,12 +6,9 @@ const ModalCustom =(props)=> {
   const [result, setResult] = useState('')
 
   useEffect(()=>{
-
     console.log("mes props modal ",props)
-
-
-
   },[open])
+  
   const p =()=>{
     let html=[]
     Object.entries(props).forEach(([key,value])=>{
