@@ -59,17 +59,12 @@ const dataInput = [
 
 export const CustomForm = () => {
 
-    // Server.start()
-    // Server.listen2()
 
     const [infosModal,setInfosModal]=useState({})
     const [isOpen,setIsOpen]=useState(false)
     let infos = {}
-    //const infosModal = {test:"test"}
 
     function envoyer(e){
-
-
         let rep = e.target.querySelectorAll('input, textArea');
         let lePays = e.target.querySelector('.search').parentElement.querySelector('div').innerText;
 
@@ -86,7 +81,7 @@ export const CustomForm = () => {
 
     goPays()
 
-    return    (
+    return (
         <>  
          <Form className='grid' onSubmit={envoyer} >
                 
