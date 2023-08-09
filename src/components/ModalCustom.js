@@ -32,7 +32,7 @@ const ModalCustom =(props)=> {
     >
       <Header icon>
         <Icon name='archive' />
-        Voici la réponse au formulaire, j'ai voulu faire un server node pour recup les infos du formulaire et créer un fichiers avec mais c'est un peu galere il faudrait presque que je build sinon c'est compliqué faut installer d'un coté node et ses module eyt de l'autre react et ses modules donc laisse tomber
+        Voici la réponse au formulaire, j'ai voulu faire un server node pour recup les infos du formulaire et créer un fichiers avec mais c'est un peu galere j'ai pas le temps et c'était pas demandé
       </Header>
       <Modal.Content>
         <p>
